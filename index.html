@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LEGO Builders Club</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    .lego-bg {
+      background-image: url('https://cdn3.pixelcut.app/pixa_cms/media/4603ff60-5f5e-4821-9640-3a2b021af7d6_selling_point_3_63a44a7f.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+</head>
+<body class="bg-yellow-50 text-gray-900 font-sans">
+  <header class="flex items-center justify-between px-8 py-4 bg-yellow-400 shadow-md">
+    <h1 class="text-3xl font-extrabold tracking-tight text-red-600">LEGO Builders Club</h1>
+    <nav class="space-x-6 font-semibold">
+      <a href="#about" class="hover:text-red-600">About</a>
+      <a href="#stories" class="hover:text-red-600">Stories</a>
+      <a href="#join" class="hover:text-red-600">Join</a>
+    </nav>
+  </header>
+
+  <section class="lego-bg relative text-center text-white py-32 px-8 bg-opacity-90">
+    <div class="bg-black bg-opacity-70 p-10 rounded-2xl inline-block">
+      <h2 class="text-5xl font-extrabold mb-4 drop-shadow-lg">If You Build, You Belong.</h2>
+      <p class="text-xl mb-8 max-w-2xl mx-auto drop-shadow-md">A community for every kind of builder — where girls, boys, and everyone in between come together to create, imagine, and play.</p>
+      <a href="#join" class="bg-red-600 text-white px-8 py-3 rounded-xl font-bold text-lg hover:bg-red-700">Join the Club</a>
+    </div>
+  </section>
+
+  <section id="stories" class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-8">
+      <h3 class="text-3xl font-bold text-center mb-12">Behind Every Build Is a Story</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-yellow-100 rounded-2xl p-6 shadow-md">
+          <img src="https://www.lego.com/cdn/cs/aboutus/assets/bltd60631b9ed5dc603/Child_With_LEGO_playset_table_42630_lifestyle.jpg" alt="Builder Story 1" class="rounded-xl mb-4">
+          <h4 class="text-xl font-semibold mb-2">Ava, 9 – The Cupcake Architect</h4>
+          <p class="text-gray-700">Ava loves designing tiny bakeries and colorful treats. Her builds remind us that creativity is always sweet.</p>
+        </div>
+        <div class="bg-yellow-100 rounded-2xl p-6 shadow-md">
+          <img src="https://www.lego.com/cdn/cs/aboutus/assets/blt16615478ef52bf03/Child_Playing_With_LEGO_Toys_60420_LEGO_City_Lifestyle.jpg" alt="Builder Story 2" class="rounded-xl mb-4">
+          <h4 class="text-xl font-semibold mb-2">Liam, 10 – The Hard Hat</h4>
+          <p class="text-gray-700">Liam’s Power Tools take imagination to the sky(scrapers) — proving that curiosity knows no limits.</p>
+        </div>
+        <div class="bg-yellow-100 rounded-2xl p-6 shadow-md">
+          <img src="https://www.lego.com/cdn/cs/aboutus/assets/blt80fac0b0bbe78291/Children_Playing_Lego_DreamZzz_Set_Lifestyle_71485.jpg" alt="Builder Story 3" class="rounded-xl mb-4">
+          <h4 class="text-xl font-semibold mb-2">Zoe & Ben, 8 – Team Builders</h4>
+          <p class="text-gray-700">This duo mixes colors, ideas, and laughter to build worlds together — showing how teamwork makes play even stronger.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="py-20 bg-yellow-50">
+    <div class="max-w-5xl mx-auto px-8 text-center">
+      <h3 class="text-3xl font-bold mb-6">One Club. Every Kind of Builder.</h3>
+      <p class="text-lg text-gray-700 mb-8">The LEGO Builders Club is a global community that celebrates how all kids play — breaking stereotypes and building belonging brick by brick. We believe creativity has no gender, and every story deserves to be built.</p>
+      <a href="#join" class="bg-red-600 text-white px-6 py-3 rounded-xl font-bold hover:bg-red-700">Learn More</a>
+    </div>
+  </section>
+
+  <section id="join" class="py-20 bg-gradient-to-t from-yellow-200 to-yellow-50 text-center">
+    <h3 class="text-4xl font-extrabold mb-4">Join the Builders Club</h3>
+    <p class="text-lg text-gray-700 mb-8">Sign up to share your builds, meet other creators, and join challenges that bring every kind of imagination together.</p>
+    <form class="max-w-md mx-auto flex flex-col gap-4">
+      <input type="text" placeholder="Your Name" class="p-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-red-500" required>
+      <input type="email" placeholder="Your Email" class="p-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-red-500" required>
+      <button type="submit" class="bg-red-600 text-white px-6 py-3 rounded-xl font-bold hover:bg-red-700">Become a Builder</button>
+    </form>
+  </section>
+
+  <footer class="bg-yellow-400 py-6 text-center text-gray-800 font-semibold">
+    <p>© 2025 LEGO Builders Club · Building Belonging Brick by Brick</p>
+  </footer>
+</body>
+</html>
